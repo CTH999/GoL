@@ -5,8 +5,8 @@
 # Links
 one of these is a good description of what this is for
 
-1. 
-2. 
+
+
 3. 
 
 ## Internet Searches
