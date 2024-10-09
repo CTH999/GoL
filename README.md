@@ -1,7 +1,7 @@
 
 
 # Contents
-
+Table of contents. Insert in a table or something later
 # Links
 this is for multiple links to GOL
 
