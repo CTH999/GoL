@@ -3,7 +3,11 @@
 # Contents
 
 # Links
-this is for multiple links to GOL
+one of these is a good description of what this is for
+
+1. 
+2. 
+3. 
 
 ## Internet Searches
 conway's game of life: https://www.bing.com/search?pglt=41&q=conway%27s+game+of+life&cvid=12af3076599244eaa7d1ef00cfa17028&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEAAYQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQDIICAkQ6QcY_FXSAQg0ODgxajBqMagCALACAA&FORM=ANNAB1&PC=U531
