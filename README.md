@@ -1,7 +1,7 @@
 
 
 # Contents
-Table of contents. Insert in a table or something later
+Table of contents. Insert in a table or something later (A.K.A. WIP)
 # Links
 one of these is a good description of what this is for
 
