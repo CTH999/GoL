@@ -5,8 +5,7 @@
 # Links
 one of these is a good description of what this is for
 
-1. 
-
+1. this is for multiple links to GOL
 
 
 ## Internet Searches
