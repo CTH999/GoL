@@ -47,3 +47,12 @@ this contains info on the pre-set documents, both general info, and the specific
 - is the file currently being read
 
 ## [Future Plans](/docs/design-docs/Future_Plans.md)
+- This document contains larger ideas and concepts that will be developed and added in the future.
+	- so, that means that an idea for a new feature, or a major code change. A thought on what color to use in the UI, that's a different story
+	
+# **Automated Prompt**
+This section outlines the prompt that will be automatically used when haveing AI assist or generate documentation or related content.
+
+**Prompt:**  
+*Insert your desired prompt here.*
+
