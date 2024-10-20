@@ -5,7 +5,10 @@
 - Small amounts of YAML code snippets may be inserted within the `.md` file.
 - All design documentation is stored in `/docs/design-docs`.
 - No files besides design documentation are to be put into `/docs/design-docs`.
-- Any non-markdown file inside of `/docs/design-docs` must be removed, as it isn't a design document.
+- Any non-markdown file inside of `/docs/design-docs` must be moved elsewhere, as it isn't a design document.
+	-unless it's is, but not in markdown. in that case, fix it.
+- any design documentation in the wrong place must be moved into `/docs/design-docs`
+	
 - The first section of any design documentation explains its purpose.
 - Any design documentation must be a single file, meaning no creation of `.yaml` and `.md` files for the same thing.
 - filine names must follow formating bellow:
@@ -18,8 +21,6 @@
 
 - **[Major Guidelines](#major-guidelines) must be highly emphasized, and utilized whenever any docs change to make sure they are right.**
   - **This means it's even more prioritized than normal, based on what is described inside Major Guidelines.**
-  
- - if a pre-set document doesn't exist, make one based on the information provided in the descripions of them
 
 ## **Major Guidelines**
 
@@ -30,6 +31,10 @@
 - **Design docs must have proper formatting, meaning they are clear, concise, self-explanatory, and in the proper syntax.**
 - Using bolding for emphasis must be used sparingly.
 
+# **Pre-Set Documents **
+this contains info on the pre-set documents, both general info, and the specific info
+ - if a pre-set document doesn't exist, make it based on the information provided in the descripions later in this section
+	- pre-set documents are immune to the nameing conventions, and still kept in the documentations area
 ## [Contents](/docs/design-docs/contents.md)
 - contains links to all design Documentation
 	-useing a link realitive to /docs/design-docs
@@ -39,5 +44,6 @@
 ## [Design Document Formatting Guidelines](/docs/design-docs/Design_Document_Formatting_Guidelines.md)
 - contains information on how to format design Documentation
 - contains basic refference information
+- is the file currently being read
 
 ## [Future Plans](/docs/design-docs/Future_Plans.md)
