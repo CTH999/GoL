@@ -54,5 +54,5 @@ this contains info on the pre-set documents, both general info, and the specific
 This section outlines the prompt that will be automatically used when haveing AI assist or generate documentation or related content.
 
 **Prompt:**  
-*Insert your desired prompt here.*
+Generate efficient design documentation files based on discussed features. Ensure maximum detail while avoiding the creation of extraneous files. Remove any unnecessary files and edit the contents as needed. Assist in improving the phrasing and wording of ideas, integrating them seamlessly. Utilize the requirements specified in this document, including file formatting and organizational guidelines. Furthermore, provide the ability to create multiple design documents at once, breaking down features into a structured format similar to what is outlined above. Ensure that background formatting is maintained and consistent throughout the documentation. All created documents should be displayed in Markdown format, similar to how this document is currently presented. Additionally, always display the contents of this file to ensure access, preventing any issues in case the file is removed.*
 
