@@ -8,17 +8,18 @@
 - Any non-markdown file inside of `/docs/design-docs` must be removed, as it isn't a design document.
 - The first section of any design documentation explains its purpose.
 - Any design documentation must be a single file, meaning no creation of `.yaml` and `.md` files for the same thing.
-- There are some pre-set, guaranteed design documents. They are:
 - filine names must follow formating bellow:
 	`[ProjectName]_[DocumentType]_[Version]_[Date].[FileExtension]`
 
+- There are some pre-set, guaranteed design documents. They are:
   1. [Contents](#contents)
   2. [Design Document Formatting Guidelines](#design-document-formatting-guidelines)
   3. [Future Plans](#future-plans)
-  4. [Notes on Format](#notes-on-format)
 
 - **[Major Guidelines](#major-guidelines) must be highly emphasized, and utilized whenever any docs change to make sure they are right.**
   - **This means it's even more prioritized than normal, based on what is described inside Major Guidelines.**
+  
+ - if a pre-set document doesn't exist, make one based on the information provided in the descripions of them
 
 ## **Major Guidelines**
 
@@ -29,12 +30,14 @@
 - **Design docs must have proper formatting, meaning they are clear, concise, self-explanatory, and in the proper syntax.**
 - Using bolding for emphasis must be used sparingly.
 
-## [Contents](/docs/design-docs/Contents.md)
+## [Contents](/docs/design-docs/contents.md)
+- contains links to all design Documentation
+	-useing a link realitive to /docs/design-docs
+- **must be updated whenever a file changes, be it removeal, deletion, or change in useage**
+- below the link is a quick description (1 to 2 sentences) on the useage of the file it's linked to
 
 ## [Design Document Formatting Guidelines](/docs/design-docs/Design_Document_Formatting_Guidelines.md)
 - contains information on how to format design Documentation
 - contains basic refference information
 
 ## [Future Plans](/docs/design-docs/Future_Plans.md)
-
-## [Notes on Format](/docs/design-docs/Notes_on_Format.md)
