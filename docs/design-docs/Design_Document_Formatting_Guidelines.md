@@ -1,58 +1,59 @@
-# Design Documentation Documentation
-**Important Notice: This document is intended for reference only and should not be altered in any way. Any modifications to this document are prohibited.**
+# Design Documentation
+**Important Notice: This document is for reference only and must not be altered in any way. Any modifications are strictly prohibited.**
 
-- All design documents are `.md` files.
-- Small amounts of YAML code snippets may be inserted within the `.md` file.
-- All design documentation is stored in `/docs/design-docs`.
-- No files besides design documentation are to be put into `/docs/design-docs`.
-- Any non-markdown file inside of `/docs/design-docs` must be moved elsewhere, as it isn't a design document.
-	-unless it's is, but not in markdown. in that case, fix it.
-- any design documentation in the wrong place must be moved into `/docs/design-docs`
-	
-- The first section of any design documentation explains its purpose.
-- Any design documentation must be a single file, meaning no creation of `.yaml` and `.md` files for the same thing.
-- filine names must follow formating bellow:
-	`[ProjectName]_[DocumentType]_[Version]_[Date].[FileExtension]`
+- All design documents must be saved as `.md` files.
+- Small YAML code snippets may be included within the `.md` files.
+- All design documentation should be stored in the `/docs/design-docs` directory.
+- Only design documentation files are permitted in `/docs/design-docs`.
+- Any non-markdown files located in `/docs/design-docs` must be relocated, as they do not qualify as design documents.  
+  - Exceptions apply for non-markdown files that are design documents; in such cases, please ensure they are formatted correctly.
+- Any design documentation placed in the incorrect directory must be moved to `/docs/design-docs`.
 
-- There are some pre-set, guaranteed design documents. They are:
+- The first section of each design document must clearly explain its purpose.
+- Each design document must be a single file; do not create separate `.yaml` and `.md` files for the same content.
+- File names must follow the format below:  
+  `"[ProjectName]_[DocumentType]_[Version]_[Date].[FileExtension]"`
+
+- The following pre-set design documents are guaranteed to exist:
   1. [Contents](#contents)
   2. [Design Document Formatting Guidelines](#design-document-formatting-guidelines)
   3. [Future Plans](#future-plans)
 
-- **[Major Guidelines](#major-guidelines) must be highly emphasized, and utilized whenever any docs change to make sure they are right.**
-  - **This means it's even more prioritized than normal, based on what is described inside Major Guidelines.**
+- **[Major Guidelines](#major-guidelines) must be emphasized and adhered to whenever any documents are changed to ensure accuracy.**
+  - **These guidelines take precedence over standard instructions, as detailed in the Major Guidelines.**
 
 ## **Major Guidelines**
 
-- **Anyone making design documentation must follow these guidelines, be they human, AI, or something else.**
-- **Bolded text is emphasized, meaning it is even more followed.**
-- **A bold header means all instructions within it are treated as if they are bold.**
-  - **Bolded text within bold text is even more important than bold text.**
-- **Design docs must have proper formatting, meaning they are clear, concise, self-explanatory, and in the proper syntax.**
-- Using bolding for emphasis must be used sparingly.
+- **All individuals creating design documentation, whether human, AI, or otherwise, must adhere to these guidelines.**
+- **Bold text indicates emphasized instructions that require strict compliance.**
+- **A bold header signifies that all instructions within it are treated with the same level of importance as bold text.**
+  - **Bold text nested within bold headers is considered even more critical.**
+- **Design documents must be properly formatted for clarity, conciseness, self-explanation, and correct syntax.**
+- **Use bolding for emphasis sparingly.**
 
-# **Pre-Set Documents **
-this contains info on the pre-set documents, both general info, and the specific info
- - if a pre-set document doesn't exist, make it based on the information provided in the descripions later in this section
-	- pre-set documents are immune to the nameing conventions, and still kept in the documentations area
+# **Pre-Set Documents**
+This section provides information about the pre-set documents, including general and specific details.
+
+- If a pre-set document does not exist, create it based on the information provided in the subsequent descriptions.
+  - Pre-set documents are exempt from naming conventions but must still reside in the documentation area.
+
 ## [Contents](/docs/design-docs/contents.md)
-- contains links to all design Documentation
-	-useing a link realitive to /docs/design-docs
-- **must be updated whenever a file changes, be it removeal, deletion, or change in useage**
-- below the link is a quick description (1 to 2 sentences) on the useage of the file it's linked to
+- Contains links to all design documentation.
+  - Use links relative to `/docs/design-docs`.
+- **Must be updated whenever a file changes, whether it is added, removed, or modified.**
+- Below each link, provide a brief description (1-2 sentences) of the purpose of the linked file.
 
 ## [Design Document Formatting Guidelines](/docs/design-docs/Design_Document_Formatting_Guidelines.md)
-- contains information on how to format design Documentation
-- contains basic refference information
-- is the file currently being read
+- Contains information on how to format design documentation.
+- Provides basic reference information.
+- This is the file currently being read.
 
 ## [Future Plans](/docs/design-docs/Future_Plans.md)
-- This document contains larger ideas and concepts that will be developed and added in the future.
-	- so, that means that an idea for a new feature, or a major code change. A thought on what color to use in the UI, that's a different story
-	
+- This document outlines larger ideas and concepts intended for future development.
+  - This includes proposals for new features or major code changes. However, trivial suggestions, such as color choices for the UI, fall outside this scope.
+
 # **Automated Prompt**
-This section outlines the prompt that will be automatically used when haveing AI assist or generate documentation or related content.
+This section outlines the prompt that will be automatically utilized when engaging AI to assist in generating documentation or related content.
 
 **Prompt:**  
-Generate efficient design documentation files based on discussed features. Ensure maximum detail while avoiding the creation of extraneous files. Remove any unnecessary files and edit the contents as needed. Assist in improving the phrasing and wording of ideas, integrating them seamlessly. Utilize the requirements specified in this document, including file formatting and organizational guidelines. Furthermore, provide the ability to create multiple design documents at once, breaking down features into a structured format similar to what is outlined above. Ensure that background formatting is maintained and consistent throughout the documentation. All created documents should be displayed in Markdown format, similar to how this document is currently presented. Additionally, always display the contents of this file to ensure access, preventing any issues in case the file is removed.*
-
+Generate efficient design documentation files based on discussed features. Ensure maximum detail while avoiding the creation of extraneous files. Remove any unnecessary files and edit the contents as needed. Assist in refining the phrasing and wording of ideas, integrating them seamlessly. Adhere to the requirements specified in this document, including file formatting and organizational guidelines. Additionally, provide the capability to create multiple design documents at once, breaking down features into a structured format similar to what is outlined above. Ensure that background formatting is consistent throughout the documentation. All created documents should be displayed in Markdown format, consistent with this document. Furthermore, always display the contents of this file to ensure accessibility, preventing issues in case the file is removed.
