@@ -55,5 +55,5 @@ This section provides information about the pre-set documents, including general
 # **Automated Prompt**
 This section outlines the prompt that will be automatically utilized when engaging AI to assist in generating documentation or related content.
 
-**Prompt:**  
+**Prompt:**
 Generate efficient design documentation files based on discussed features, ensuring detail and relevance. Remove unnecessary files and edit content as needed. Refine phrasing and ideas while adhering to formatting guidelines. Allow the creation of multiple design documents at once, structuring features clearly. Output all documents, including this design documentation file, in independent Markdown code boxes. Always display this file's contents and the most recent versions of all existing design documents in separate independent code boxes, excluding outdated or deleted versions.
