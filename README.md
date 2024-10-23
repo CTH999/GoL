@@ -1,5 +1,3 @@
-
-
 # Contents
 Table of contents. Insert in a table or something later (A.K.A. WIP)
 # Links
@@ -29,3 +27,4 @@ official wiki: https://conwaylife.com/wiki/
 
 https://conwaylife.com/wiki/Run_Length_Encoded
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
